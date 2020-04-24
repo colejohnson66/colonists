@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/sheep-1.obj-3dcf2a36a7626ce6a0c1166157f1f9c0.mesh"
+
+[deps]
+
+files=[ "res://.import/sheep-1.obj-3dcf2a36a7626ce6a0c1166157f1f9c0.mesh" ]
+
+source_file="res://assets/hex/sheep-1.obj"
+dest_files=[ "res://.import/sheep-1.obj-3dcf2a36a7626ce6a0c1166157f1f9c0.mesh", "res://.import/sheep-1.obj-3dcf2a36a7626ce6a0c1166157f1f9c0.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

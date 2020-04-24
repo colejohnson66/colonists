@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/robber-4.obj-5e1ca2447608d9d127eb06765b2d05eb.mesh"
+
+[deps]
+
+files=[ "res://.import/robber-4.obj-5e1ca2447608d9d127eb06765b2d05eb.mesh" ]
+
+source_file="res://assets/robber-4.obj"
+dest_files=[ "res://.import/robber-4.obj-5e1ca2447608d9d127eb06765b2d05eb.mesh", "res://.import/robber-4.obj-5e1ca2447608d9d127eb06765b2d05eb.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

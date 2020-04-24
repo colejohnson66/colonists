@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ore-1.obj-6fcc86b1a5f6cd676fd86522af51cb06.mesh"
+
+[deps]
+
+files=[ "res://.import/ore-1.obj-6fcc86b1a5f6cd676fd86522af51cb06.mesh" ]
+
+source_file="res://assets/hex/ore-1.obj"
+dest_files=[ "res://.import/ore-1.obj-6fcc86b1a5f6cd676fd86522af51cb06.mesh", "res://.import/ore-1.obj-6fcc86b1a5f6cd676fd86522af51cb06.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

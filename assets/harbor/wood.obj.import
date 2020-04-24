@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wood.obj-ebf4156f22fbeaffe3eb3f4f2181707f.mesh"
+
+[deps]
+
+files=[ "res://.import/wood.obj-ebf4156f22fbeaffe3eb3f4f2181707f.mesh" ]
+
+source_file="res://assets/harbor/wood.obj"
+dest_files=[ "res://.import/wood.obj-ebf4156f22fbeaffe3eb3f4f2181707f.mesh", "res://.import/wood.obj-ebf4156f22fbeaffe3eb3f4f2181707f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

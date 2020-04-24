@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/top-1.obj-424b4bde2e92efb7f3e2b1a02e65c2a5.mesh"
+
+[deps]
+
+files=[ "res://.import/top-1.obj-424b4bde2e92efb7f3e2b1a02e65c2a5.mesh" ]
+
+source_file="res://assets/harbor/top-1.obj"
+dest_files=[ "res://.import/top-1.obj-424b4bde2e92efb7f3e2b1a02e65c2a5.mesh", "res://.import/top-1.obj-424b4bde2e92efb7f3e2b1a02e65c2a5.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

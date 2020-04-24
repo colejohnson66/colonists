@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/crossing-2.obj-f7b73ea956788f5076d22f987a6b7917.mesh"
+
+[deps]
+
+files=[ "res://.import/crossing-2.obj-f7b73ea956788f5076d22f987a6b7917.mesh" ]
+
+source_file="res://assets/pieces/crossing-2.obj"
+dest_files=[ "res://.import/crossing-2.obj-f7b73ea956788f5076d22f987a6b7917.mesh", "res://.import/crossing-2.obj-f7b73ea956788f5076d22f987a6b7917.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

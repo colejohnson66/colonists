@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wheat-3.obj-bd2d6773345acef630d22b0a128d0d20.mesh"
+
+[deps]
+
+files=[ "res://.import/wheat-3.obj-bd2d6773345acef630d22b0a128d0d20.mesh" ]
+
+source_file="res://assets/hex/wheat-3.obj"
+dest_files=[ "res://.import/wheat-3.obj-bd2d6773345acef630d22b0a128d0d20.mesh", "res://.import/wheat-3.obj-bd2d6773345acef630d22b0a128d0d20.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
