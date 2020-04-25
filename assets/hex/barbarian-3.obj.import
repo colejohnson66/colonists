@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/barbarian-3.obj-722a81cf58f7c2277ed4cf2d9e13719f.mesh"
+
+[deps]
+
+files=[ "res://.import/barbarian-3.obj-722a81cf58f7c2277ed4cf2d9e13719f.mesh" ]
+
+source_file="res://assets/hex/barbarian-3.obj"
+dest_files=[ "res://.import/barbarian-3.obj-722a81cf58f7c2277ed4cf2d9e13719f.mesh", "res://.import/barbarian-3.obj-722a81cf58f7c2277ed4cf2d9e13719f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

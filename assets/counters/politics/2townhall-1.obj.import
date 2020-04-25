@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/2townhall-1.obj-c50ba4a0dd8c235eaeace8001e0131fd.mesh"
+
+[deps]
+
+files=[ "res://.import/2townhall-1.obj-c50ba4a0dd8c235eaeace8001e0131fd.mesh" ]
+
+source_file="res://assets/counters/politics/2townhall-1.obj"
+dest_files=[ "res://.import/2townhall-1.obj-c50ba4a0dd8c235eaeace8001e0131fd.mesh", "res://.import/2townhall-1.obj-c50ba4a0dd8c235eaeace8001e0131fd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

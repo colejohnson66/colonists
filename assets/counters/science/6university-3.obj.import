@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/6university-3.obj-41df6e7caee12b3374ffad4a1f92de5f.mesh"
+
+[deps]
+
+files=[ "res://.import/6university-3.obj-41df6e7caee12b3374ffad4a1f92de5f.mesh" ]
+
+source_file="res://assets/counters/science/6university-3.obj"
+dest_files=[ "res://.import/6university-3.obj-41df6e7caee12b3374ffad4a1f92de5f.mesh", "res://.import/6university-3.obj-41df6e7caee12b3374ffad4a1f92de5f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

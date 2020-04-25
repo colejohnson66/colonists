@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/3church-3.obj-9c237005a5d45c4f5533a620b28279bc.mesh"
+
+[deps]
+
+files=[ "res://.import/3church-3.obj-9c237005a5d45c4f5533a620b28279bc.mesh" ]
+
+source_file="res://assets/counters/politics/3church-3.obj"
+dest_files=[ "res://.import/3church-3.obj-9c237005a5d45c4f5533a620b28279bc.mesh", "res://.import/3church-3.obj-9c237005a5d45c4f5533a620b28279bc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

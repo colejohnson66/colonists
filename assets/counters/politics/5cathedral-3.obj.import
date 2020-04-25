@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/5cathedral-3.obj-d8fa7692f013c6fe1a96a3a9b1aea2af.mesh"
+
+[deps]
+
+files=[ "res://.import/5cathedral-3.obj-d8fa7692f013c6fe1a96a3a9b1aea2af.mesh" ]
+
+source_file="res://assets/counters/politics/5cathedral-3.obj"
+dest_files=[ "res://.import/5cathedral-3.obj-d8fa7692f013c6fe1a96a3a9b1aea2af.mesh", "res://.import/5cathedral-3.obj-d8fa7692f013c6fe1a96a3a9b1aea2af.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

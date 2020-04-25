@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/6council-2.obj-80c2d3c7241afeaf4b122a4cc1bd53e3.mesh"
+
+[deps]
+
+files=[ "res://.import/6council-2.obj-80c2d3c7241afeaf4b122a4cc1bd53e3.mesh" ]
+
+source_file="res://assets/counters/politics/6council-2.obj"
+dest_files=[ "res://.import/6council-2.obj-80c2d3c7241afeaf4b122a4cc1bd53e3.mesh", "res://.import/6council-2.obj-80c2d3c7241afeaf4b122a4cc1bd53e3.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

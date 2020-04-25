@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/4guild-3.obj-68f1a04c8330c0b918a7c826405f4644.mesh"
+
+[deps]
+
+files=[ "res://.import/4guild-3.obj-68f1a04c8330c0b918a7c826405f4644.mesh" ]
+
+source_file="res://assets/counters/trade/4guild-3.obj"
+dest_files=[ "res://.import/4guild-3.obj-68f1a04c8330c0b918a7c826405f4644.mesh", "res://.import/4guild-3.obj-68f1a04c8330c0b918a7c826405f4644.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

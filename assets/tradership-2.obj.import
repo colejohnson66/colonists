@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tradership-2.obj-87a509441e7121434b62f3c2d8562baf.mesh"
+
+[deps]
+
+files=[ "res://.import/tradership-2.obj-87a509441e7121434b62f3c2d8562baf.mesh" ]
+
+source_file="res://assets/tradership-2.obj"
+dest_files=[ "res://.import/tradership-2.obj-87a509441e7121434b62f3c2d8562baf.mesh", "res://.import/tradership-2.obj-87a509441e7121434b62f3c2d8562baf.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/metropolis-3.obj-76d7c8bc3a3cca153d680f17a5d37f9c.mesh"
+
+[deps]
+
+files=[ "res://.import/metropolis-3.obj-76d7c8bc3a3cca153d680f17a5d37f9c.mesh" ]
+
+source_file="res://assets/pieces/metropolis-3.obj"
+dest_files=[ "res://.import/metropolis-3.obj-76d7c8bc3a3cca153d680f17a5d37f9c.mesh", "res://.import/metropolis-3.obj-76d7c8bc3a3cca153d680f17a5d37f9c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

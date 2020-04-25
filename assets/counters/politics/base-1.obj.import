@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/base-1.obj-82068a8fa04afa0f86bbd55458b90fbc.mesh"
+
+[deps]
+
+files=[ "res://.import/base-1.obj-82068a8fa04afa0f86bbd55458b90fbc.mesh" ]
+
+source_file="res://assets/counters/politics/base-1.obj"
+dest_files=[ "res://.import/base-1.obj-82068a8fa04afa0f86bbd55458b90fbc.mesh", "res://.import/base-1.obj-82068a8fa04afa0f86bbd55458b90fbc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
