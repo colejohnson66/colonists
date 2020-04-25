@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/gold-3.obj-514f4207c7d4357c0b2726e9bf7ad5b8.mesh"
+
+[deps]
+
+files=[ "res://.import/gold-3.obj-514f4207c7d4357c0b2726e9bf7ad5b8.mesh" ]
+
+source_file="res://assets/hex/gold-3.obj"
+dest_files=[ "res://.import/gold-3.obj-514f4207c7d4357c0b2726e9bf7ad5b8.mesh", "res://.import/gold-3.obj-514f4207c7d4357c0b2726e9bf7ad5b8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

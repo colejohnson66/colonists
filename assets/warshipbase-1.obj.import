@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/warshipbase-1.obj-b331c47b788cb7dfcbca5f775cf73f36.mesh"
+
+[deps]
+
+files=[ "res://.import/warshipbase-1.obj-b331c47b788cb7dfcbca5f775cf73f36.mesh" ]
+
+source_file="res://assets/warshipbase-1.obj"
+dest_files=[ "res://.import/warshipbase-1.obj-b331c47b788cb7dfcbca5f775cf73f36.mesh", "res://.import/warshipbase-1.obj-b331c47b788cb7dfcbca5f775cf73f36.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

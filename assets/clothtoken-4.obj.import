@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/clothtoken-4.obj-3cd0ed2aaff68cb99aea949b3eed04fa.mesh"
+
+[deps]
+
+files=[ "res://.import/clothtoken-4.obj-3cd0ed2aaff68cb99aea949b3eed04fa.mesh" ]
+
+source_file="res://assets/clothtoken-4.obj"
+dest_files=[ "res://.import/clothtoken-4.obj-3cd0ed2aaff68cb99aea949b3eed04fa.mesh", "res://.import/clothtoken-4.obj-3cd0ed2aaff68cb99aea949b3eed04fa.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

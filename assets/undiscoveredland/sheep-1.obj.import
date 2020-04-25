@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/sheep-1.obj-4b3bacf03870f4d4f9fafbca37c3595c.mesh"
+
+[deps]
+
+files=[ "res://.import/sheep-1.obj-4b3bacf03870f4d4f9fafbca37c3595c.mesh" ]
+
+source_file="res://assets/undiscoveredland/sheep-1.obj"
+dest_files=[ "res://.import/sheep-1.obj-4b3bacf03870f4d4f9fafbca37c3595c.mesh", "res://.import/sheep-1.obj-4b3bacf03870f4d4f9fafbca37c3595c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

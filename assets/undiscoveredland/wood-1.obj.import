@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wood-1.obj-91e5a0ffe34b98ac782e7f15b53b4aea.mesh"
+
+[deps]
+
+files=[ "res://.import/wood-1.obj-91e5a0ffe34b98ac782e7f15b53b4aea.mesh" ]
+
+source_file="res://assets/undiscoveredland/wood-1.obj"
+dest_files=[ "res://.import/wood-1.obj-91e5a0ffe34b98ac782e7f15b53b4aea.mesh", "res://.import/wood-1.obj-91e5a0ffe34b98ac782e7f15b53b4aea.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

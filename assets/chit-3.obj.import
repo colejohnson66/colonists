@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/chit-3.obj-b3c50482f47a09c9fce27ce0c8e9eae8.mesh"
+
+[deps]
+
+files=[ "res://.import/chit-3.obj-b3c50482f47a09c9fce27ce0c8e9eae8.mesh" ]
+
+source_file="res://assets/chit-3.obj"
+dest_files=[ "res://.import/chit-3.obj-b3c50482f47a09c9fce27ce0c8e9eae8.mesh", "res://.import/chit-3.obj-b3c50482f47a09c9fce27ce0c8e9eae8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

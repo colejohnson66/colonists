@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/water-island2-4.obj-5e72c79e585944a419d18650f4bef310.mesh"
+
+[deps]
+
+files=[ "res://.import/water-island2-4.obj-5e72c79e585944a419d18650f4bef310.mesh" ]
+
+source_file="res://assets/hex/water-island2-4.obj"
+dest_files=[ "res://.import/water-island2-4.obj-5e72c79e585944a419d18650f4bef310.mesh", "res://.import/water-island2-4.obj-5e72c79e585944a419d18650f4bef310.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

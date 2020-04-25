@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/gold-2.obj-1a879bb0a20b56d7cf307cd7e7807a46.mesh"
+
+[deps]
+
+files=[ "res://.import/gold-2.obj-1a879bb0a20b56d7cf307cd7e7807a46.mesh" ]
+
+source_file="res://assets/undiscoveredland/gold-2.obj"
+dest_files=[ "res://.import/gold-2.obj-1a879bb0a20b56d7cf307cd7e7807a46.mesh", "res://.import/gold-2.obj-1a879bb0a20b56d7cf307cd7e7807a46.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

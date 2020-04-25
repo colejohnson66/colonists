@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ship-3.obj-adf1e2515ce7203c96b8e84501f9fe0f.mesh"
+
+[deps]
+
+files=[ "res://.import/ship-3.obj-adf1e2515ce7203c96b8e84501f9fe0f.mesh" ]
+
+source_file="res://assets/pieces/ship-3.obj"
+dest_files=[ "res://.import/ship-3.obj-adf1e2515ce7203c96b8e84501f9fe0f.mesh", "res://.import/ship-3.obj-adf1e2515ce7203c96b8e84501f9fe0f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

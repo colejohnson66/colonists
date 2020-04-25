@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/water-3.obj-b8fc4e64534057d8005c83543a07c56e.mesh"
+
+[deps]
+
+files=[ "res://.import/water-3.obj-b8fc4e64534057d8005c83543a07c56e.mesh" ]
+
+source_file="res://assets/undiscoveredland/water-3.obj"
+dest_files=[ "res://.import/water-3.obj-b8fc4e64534057d8005c83543a07c56e.mesh", "res://.import/water-3.obj-b8fc4e64534057d8005c83543a07c56e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

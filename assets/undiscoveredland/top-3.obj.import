@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/top-3.obj-1a6105a34c077e1ee2af57505a3e449a.mesh"
+
+[deps]
+
+files=[ "res://.import/top-3.obj-1a6105a34c077e1ee2af57505a3e449a.mesh" ]
+
+source_file="res://assets/undiscoveredland/top-3.obj"
+dest_files=[ "res://.import/top-3.obj-1a6105a34c077e1ee2af57505a3e449a.mesh", "res://.import/top-3.obj-1a6105a34c077e1ee2af57505a3e449a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
