@@ -18,10 +18,16 @@ _global_script_classes=[ {
 "class": "ObjectMeshContainer",
 "language": "GDScript",
 "path": "res://classes/object_mesh_container.gd"
+}, {
+"base": "Camera",
+"class": "Pannablecamera",
+"language": "GDScript",
+"path": "res://classes/pannable_camera.gd"
 } ]
 _global_script_class_icons={
 "HexWithBaseMesh": "",
-"ObjectMeshContainer": ""
+"ObjectMeshContainer": "",
+"Pannablecamera": ""
 }
 
 [application]

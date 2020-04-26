@@ -1,0 +1,2 @@
+Hexagon base (assets/hex/base.obj) is 79x91.2 meters
+Edge length is therefore 45.61 meters
