@@ -10,11 +10,17 @@ config_version=4
 
 _global_script_classes=[ {
 "base": "Spatial",
+"class": "HexWithBaseMesh",
+"language": "GDScript",
+"path": "res://classes/hex_with_base_mesh.gd"
+}, {
+"base": "Spatial",
 "class": "ObjectMeshContainer",
 "language": "GDScript",
 "path": "res://classes/object_mesh_container.gd"
 } ]
 _global_script_class_icons={
+"HexWithBaseMesh": "",
 "ObjectMeshContainer": ""
 }
 

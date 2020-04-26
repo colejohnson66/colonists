@@ -1,7 +1,8 @@
 extends Spatial
 
-var ColorMapper = preload("res://classes/color_mapper.gd")
+var ColorMapper = load("res://classes/color_mapper.gd")
 var ObjectMeshContainer = load("res://classes/object_mesh_container.gd")
+var HexWithBaseMesh = load("res://classes/hex_with_base_mesh.gd")
 
 
 # Declare member variables here. Examples:
@@ -22,7 +23,13 @@ func _ready():
 		ColorMapper.map_color_number(8),
 		ColorMapper.map_color_number(7)
 	])
-	add_child(container)
+	var base = MeshInstance.new()
+	base.mesh = load("res://assets/hex/base.obj")
+	
+	var hex = HexWithBaseMesh.new()
+	hex.mesh_container = container
+	hex.base_mesh = base
+	add_child(hex)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
