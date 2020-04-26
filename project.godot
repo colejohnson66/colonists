@@ -8,16 +8,28 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Spatial",
+"class": "ObjectMeshContainer",
+"language": "GDScript",
+"path": "res://classes/object_mesh_container.gd"
+} ]
 _global_script_class_icons={
-
+"ObjectMeshContainer": ""
 }
 
 [application]
 
 config/name="colonists"
+run/main_scene="res://TheGame.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=800
 
 [rendering]
 
+quality/subsurface_scattering/scale=1
+quality/filters/msaa=2
 environment/default_environment="res://default_env.tres"

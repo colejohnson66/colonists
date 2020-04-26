@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/hex/sheep-1.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://TheGame.gd" type="Script" id=2]
+
+[node name="Spatial" type="Spatial"]
+script = ExtResource( 2 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 0, 50, 0 )
+fov = 84.7
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 0, 0, 0 )
+light_energy = 0.5
+
+[node name="sheep-1" type="MeshInstance" parent="."]
+mesh = ExtResource( 1 )
+material/0 = null
