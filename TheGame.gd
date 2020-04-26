@@ -12,17 +12,12 @@ var HexWithBaseMesh = load("res://classes/hex_with_base_mesh.gd")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	var container = ObjectMeshContainer.new([
-		"res://assets/hex/sheep-1.obj",
-		"res://assets/hex/sheep-2.obj",
-		"res://assets/hex/sheep-3.obj",
-		"res://assets/hex/sheep-4.obj"
-	], [
-		ColorMapper.map_color_number(6),
-		ColorMapper.map_color_number(3),
-		ColorMapper.map_color_number(8),
-		ColorMapper.map_color_number(7)
-	])
+	var container = ObjectMeshContainer.new()
+	container.add_mesh("res://assets/hex/ore-1.obj", ColorMapper.map_color_number(2))
+	container.add_mesh("res://assets/hex/ore-2.obj", ColorMapper.map_color_number(9))
+	container.add_mesh("res://assets/hex/ore-3.obj", ColorMapper.map_color_number(3))
+	container.add_mesh("res://assets/hex/ore-4.obj", ColorMapper.map_color_number(8))
+	
 	var base = MeshInstance.new()
 	base.mesh = load("res://assets/hex/base.obj")
 	
@@ -30,8 +25,3 @@ func _ready():
 	hex.mesh_container = container
 	hex.base_mesh = base
 	add_child(hex)
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
