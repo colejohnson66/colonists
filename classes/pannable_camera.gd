@@ -2,7 +2,7 @@ extends Camera
 class_name Pannablecamera
 
 
-func _process(delta):
+func _process(_delta):
 	if Input.is_key_pressed(KEY_RIGHT):
 		translate(Vector3(3, 0, 0))
 	if Input.is_key_pressed(KEY_LEFT):

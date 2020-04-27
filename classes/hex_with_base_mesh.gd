@@ -5,8 +5,8 @@ class_name HexWithBaseMesh
 var ObjectMeshContainer = preload("res://classes/object_mesh_container.gd")
 
 
-var mesh_container = null setget set_mesh_container, get_mesh_container
-var base_mesh = null setget set_base_mesh, get_base_mesh
+var mesh_container setget set_mesh_container, get_mesh_container
+var base_mesh setget set_base_mesh, get_base_mesh
 
 
 func _init():
