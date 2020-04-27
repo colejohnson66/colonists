@@ -21,4 +21,4 @@ func _ready():
 	container.add_mesh("res://assets/hex/barbarian-4.obj", ObjectMeshContainer.COLOR_TURQOISE)
 	
 	base.mesh = load("res://assets/hex/base.obj")
-	# TODO: Set base color
+	base.mesh.surface_set_material(0, get_node("/root/CachedColorMaterials").bluegreen)
