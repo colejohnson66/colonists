@@ -1,8 +1,8 @@
 extends Spatial
 
 
-var OreHex = load("res://classes/hexes/ore_hex.gd")
+var TestHex = load("res://classes/hexes/water_harbor_hex.gd")
 
 
 func _ready():
-	add_child(OreHex.new())
+	add_child(TestHex.new())

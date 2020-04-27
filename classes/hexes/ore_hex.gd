@@ -22,4 +22,3 @@ func _ready():
 	
 	base.mesh = load("res://assets/hex/base.obj")
 	base.mesh.surface_set_material(0, get_node("/root/CachedColorMaterials").gray)
-	# TODO: Set base color
