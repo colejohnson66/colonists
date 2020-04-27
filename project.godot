@@ -10,6 +10,11 @@ config_version=4
 
 _global_script_classes=[ {
 "base": "Spatial",
+"class": "BarbarianHex",
+"language": "GDScript",
+"path": "res://classes/hexes/barbarian_hex.gd"
+}, {
+"base": "Spatial",
 "class": "HexWithBaseMesh",
 "language": "GDScript",
 "path": "res://classes/hex_with_base_mesh.gd"
@@ -30,6 +35,7 @@ _global_script_classes=[ {
 "path": "res://classes/pannable_camera.gd"
 } ]
 _global_script_class_icons={
+"BarbarianHex": "",
 "HexWithBaseMesh": "",
 "ObjectMeshContainer": "",
 "OreHex": "",

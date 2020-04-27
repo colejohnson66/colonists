@@ -1,5 +1,5 @@
 extends Spatial
-class_name OreHex
+class_name BarbarianHex
 
 
 var ObjectMeshContainer = load("res://classes/object_mesh_container.gd")
@@ -15,10 +15,10 @@ func _ready():
 	hex.base_mesh = base
 	add_child(hex)
 	
-	container.add_mesh("res://assets/hex/ore-1.obj", ObjectMeshContainer.COLOR_BEIGE)
-	container.add_mesh("res://assets/hex/ore-2.obj", ObjectMeshContainer.COLOR_GRAY)
-	container.add_mesh("res://assets/hex/ore-3.obj", ObjectMeshContainer.COLOR_BROWN)
-	container.add_mesh("res://assets/hex/ore-4.obj", ObjectMeshContainer.COLOR_GREEN)
+	container.add_mesh("res://assets/hex/barbarian-1.obj", ObjectMeshContainer.COLOR_BLUEGREEN)
+	container.add_mesh("res://assets/hex/barbarian-2.obj", ObjectMeshContainer.COLOR_WHITE)
+	container.add_mesh("res://assets/hex/barbarian-3.obj", ObjectMeshContainer.COLOR_RED)
+	container.add_mesh("res://assets/hex/barbarian-4.obj", ObjectMeshContainer.COLOR_TURQOISE)
 	
 	base.mesh = load("res://assets/hex/base.obj")
 	# TODO: Set base color
