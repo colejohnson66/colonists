@@ -2,6 +2,9 @@ extends Node
 #class_name CachedColorMaterials
 
 
+var Colors = load("res://classes/colors.gd")
+
+
 var orange setget ,get_orange
 var beige setget ,get_beige
 var brown setget ,get_brown
@@ -59,6 +62,36 @@ func get_bluegreen() -> SpatialMaterial:
 func get_turqoise() -> SpatialMaterial:
 	return turqoise
 func get_black() -> SpatialMaterial:
+	return black
+
+
+func get_material_from_color(color: int):
+	if (color == Colors.COLOR_ORANGE):
+		return orange
+	if (color == Colors.COLOR_BEIGE):
+		return beige
+	if (color == Colors.COLOR_BROWN):
+		return brown
+	if (color == Colors.COLOR_RED):
+		return red
+	if (color == Colors.COLOR_GOLD):
+		return gold
+	if (color == Colors.COLOR_LIGHTGREEN):
+		return lightgreen
+	if (color == Colors.COLOR_WHITE):
+		return white
+	if (color == Colors.COLOR_GREEN):
+		return green
+	if (color == Colors.COLOR_GRAY):
+		return gray
+	if (color == Colors.COLOR_YELLOW):
+		return yellow
+	if (color == Colors.COLOR_BLUEGREEN):
+		return bluegreen
+	if (color == Colors.COLOR_TURQOISE):
+		return turqoise
+	
+	push_warning("Unknown color; Not in cache")
 	return black
 
 
