@@ -1,0 +1,17 @@
+extends Node
+class_name Colors
+
+enum {
+	COLOR_ORANGE, # 1
+	COLOR_BEIGE, # 2
+	COLOR_BROWN, # 3
+	COLOR_RED, # 4
+	COLOR_GOLD, # 5
+	COLOR_LIGHTGREEN, # 6
+	COLOR_WHITE, # 7
+	COLOR_GREEN, # 8
+	COLOR_GRAY, # 9
+	COLOR_YELLOW, # 10
+	COLOR_BLUEGREEN, # 11
+	COLOR_TURQOISE, # 12
+}

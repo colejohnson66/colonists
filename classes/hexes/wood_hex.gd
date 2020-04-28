@@ -2,6 +2,7 @@ extends Spatial
 class_name WoodHex
 
 
+var Colors = load("res://classes/colors.gd")
 var ObjectMeshContainer = load("res://classes/object_mesh_container.gd")
 var HexWithBaseMesh = load("res://classes/hex_with_base_mesh.gd")
 
@@ -15,10 +16,10 @@ func _ready():
 	hex.base_mesh = base
 	add_child(hex)
 	
-	container.add_mesh("res://assets/hex/wood-1.obj", ObjectMeshContainer.COLOR_LIGHTGREEN)
-	container.add_mesh("res://assets/hex/wood-2.obj", ObjectMeshContainer.COLOR_GREEN)
-	container.add_mesh("res://assets/hex/wood-3.obj", ObjectMeshContainer.COLOR_BEIGE)
-	container.add_mesh("res://assets/hex/wood-4.obj", ObjectMeshContainer.COLOR_BROWN)
+	container.add_mesh("res://assets/hex/wood-1.obj", Colors.COLOR_LIGHTGREEN)
+	container.add_mesh("res://assets/hex/wood-2.obj", Colors.COLOR_GREEN)
+	container.add_mesh("res://assets/hex/wood-3.obj", Colors.COLOR_BEIGE)
+	container.add_mesh("res://assets/hex/wood-4.obj", Colors.COLOR_BROWN)
 	
 	base.mesh = load("res://assets/hex/base.obj")
-	base.mesh.surface_set_material(0, get_node("/root/CachedColorMaterials").brown)
+	hex.set_base_color(Colors.COLOR_BROWN)
