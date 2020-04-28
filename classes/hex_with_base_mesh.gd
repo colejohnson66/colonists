@@ -7,15 +7,19 @@ var ObjectMeshContainer = load("res://classes/object_mesh_container.gd")
 
 
 var mesh_container setget set_mesh_container, get_mesh_container
-var base_mesh setget set_base_mesh, get_base_mesh
+var base_mesh setget ,get_base_mesh
 
 
 func _init():
-	pass
+	# Duplication of the mesh is required; otherwise all bases will be the most
+	#   recently set color
+	base_mesh = MeshInstance.new()
+	base_mesh.mesh = load("res://assets/hex/base.obj").duplicate()
+	base_mesh.rotation_degrees = Vector3(0, 30, 0)
 
 
 func _ready():
-	pass
+	add_child(base_mesh)
 
 
 func set_mesh_container(value: ObjectMeshContainer):
@@ -30,16 +34,9 @@ func get_mesh_container() -> ObjectMeshContainer:
 	return mesh_container
 
 
-func set_base_mesh(value: Spatial):
-	if base_mesh != null:
-		remove_child(base_mesh)
-	
-	base_mesh = value
-	base_mesh.rotation_degrees = Vector3(0, 30, 0)
-	add_child(base_mesh)
-
 func get_base_mesh() -> Spatial:
 	return base_mesh
+
 
 func set_base_color(color: int):
 	var cached_materials = get_node("/root/CachedColorMaterials")
