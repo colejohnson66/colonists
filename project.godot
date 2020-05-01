@@ -14,6 +14,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://classes/hexes/barbarian_hex.gd"
 }, {
+"base": "WaterHarborHex",
+"class": "BrickHarbor",
+"language": "GDScript",
+"path": "res://classes/harbor/brick_harbor.gd"
+}, {
 "base": "Spatial",
 "class": "BrickHex",
 "language": "GDScript",
@@ -64,6 +69,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://classes/object_mesh_container.gd"
 }, {
+"base": "WaterHarborHex",
+"class": "OreHarbor",
+"language": "GDScript",
+"path": "res://classes/harbor/ore_harbor.gd"
+}, {
 "base": "Spatial",
 "class": "OreHex",
 "language": "GDScript",
@@ -73,6 +83,11 @@ _global_script_classes=[ {
 "class": "Pannablecamera",
 "language": "GDScript",
 "path": "res://classes/pannable_camera.gd"
+}, {
+"base": "WaterHarborHex",
+"class": "SheepHarbor",
+"language": "GDScript",
+"path": "res://classes/harbor/sheep_harbor.gd"
 }, {
 "base": "Spatial",
 "class": "SheepHex",
@@ -94,10 +109,20 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://classes/hexes/water_hex.gd"
 }, {
+"base": "WaterHarborHex",
+"class": "WheatHarbor",
+"language": "GDScript",
+"path": "res://classes/harbor/wheat_harbor.gd"
+}, {
 "base": "Spatial",
 "class": "WheatHex",
 "language": "GDScript",
 "path": "res://classes/hexes/wheat_hex.gd"
+}, {
+"base": "WaterHarborHex",
+"class": "WoodHarbor",
+"language": "GDScript",
+"path": "res://classes/harbor/wood_harbor.gd"
 }, {
 "base": "Spatial",
 "class": "WoodHex",
@@ -106,6 +131,7 @@ _global_script_classes=[ {
 } ]
 _global_script_class_icons={
 "BarbarianHex": "",
+"BrickHarbor": "",
 "BrickHex": "",
 "Colors": "",
 "Constants": "",
@@ -116,13 +142,17 @@ _global_script_class_icons={
 "HarborTop": "",
 "HexWithBaseMesh": "",
 "ObjectMeshContainer": "",
+"OreHarbor": "",
 "OreHex": "",
 "Pannablecamera": "",
+"SheepHarbor": "",
 "SheepHex": "",
 "ThreeForOneHarbor": "",
 "WaterHarborHex": "",
 "WaterHex": "",
+"WheatHarbor": "",
 "WheatHex": "",
+"WoodHarbor": "",
 "WoodHex": ""
 }
 
