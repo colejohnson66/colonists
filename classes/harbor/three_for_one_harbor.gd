@@ -1,20 +1,19 @@
-extends Spatial
+extends WaterHarborHex
 class_name ThreeForOneHarbor
 
 
-var Colors = load("res://classes/colors.gd")
-var WaterHarborHex = load("res://classes/water_harbor_hex.gd")
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+var HarborPiece = load("res://classes/harbor/harbor_piece.gd")
 
 
-# Called when the node enters the scene tree for the first time.
+var piece setget ,get_piece
+
+
 func _ready():
-	pass # Replace with function body.
+	piece = HarborPiece.new()
+	add_child(piece)
+	piece.set_unique_piece_mesh("res://assets/harbor/3for1.obj")
+	piece.set_unique_piece_color(Colors.COLOR_YELLOW)
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func get_piece() -> HarborPiece:
+	return piece

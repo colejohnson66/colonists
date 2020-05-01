@@ -45,6 +45,11 @@ _global_script_classes=[ {
 "path": "res://classes/harbor/harbor_base.gd"
 }, {
 "base": "Spatial",
+"class": "HarborPiece",
+"language": "GDScript",
+"path": "res://classes/harbor/harbor_piece.gd"
+}, {
+"base": "Spatial",
 "class": "HarborTop",
 "language": "GDScript",
 "path": "res://classes/harbor/harbor_top.gd"
@@ -74,7 +79,7 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://classes/hexes/sheep_hex.gd"
 }, {
-"base": "Spatial",
+"base": "WaterHarborHex",
 "class": "ThreeForOneHarbor",
 "language": "GDScript",
 "path": "res://classes/harbor/three_for_one_harbor.gd"
@@ -107,6 +112,7 @@ _global_script_class_icons={
 "DesertHex": "",
 "GoldHex": "",
 "HarborBase": "",
+"HarborPiece": "",
 "HarborTop": "",
 "HexWithBaseMesh": "",
 "ObjectMeshContainer": "",
