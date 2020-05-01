@@ -1,18 +1,11 @@
 extends Spatial
 
 
-var TestHex = load("res://classes/hexes/water_harbor_hex.gd")
-var TestHex2 = load("res://classes/hexes/wood_hex.gd")
-var TestHex3 = load("res://classes/hexes/brick_hex.gd")
-var TestHarbor = load("res://classes/harbor/wood_harbor.gd")
+var Colors = load("res://classes/colors.gd")
+var City = load("res://classes/pieces/city.gd")
 
 
 func _ready():
-	add_child(TestHarbor.new())
-#	add_child(TestHex.new())
-#	var wood = TestHex2.new()
-#	wood.translate(Vector3(0, 0, 80))
-#	add_child(wood)
-#	var brick = TestHex3.new()
-#	brick.translate(Vector3(0, 0, -80))
-#	add_child(brick)
+	var city = City.new()
+	add_child(city)
+	city.set_color(Colors.COLOR_GREEN)

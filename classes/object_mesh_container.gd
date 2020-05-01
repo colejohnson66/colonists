@@ -5,6 +5,9 @@ class_name ObjectMeshContainer
 var Colors = load("res://classes/colors.gd")
 
 
+var meshes = []
+
+
 func _ready():
 	pass
 
