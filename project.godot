@@ -89,6 +89,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://classes/pannable_camera.gd"
 }, {
+"base": "Spatial",
+"class": "Settlement",
+"language": "GDScript",
+"path": "res://classes/pieces/settlement.gd"
+}, {
 "base": "WaterHarborHex",
 "class": "SheepHarbor",
 "language": "GDScript",
@@ -151,6 +156,7 @@ _global_script_class_icons={
 "OreHarbor": "",
 "OreHex": "",
 "Pannablecamera": "",
+"Settlement": "",
 "SheepHarbor": "",
 "SheepHex": "",
 "ThreeForOneHarbor": "",
